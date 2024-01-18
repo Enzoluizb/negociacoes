@@ -34,6 +34,10 @@ export class NegociacaoController {
       this.inputValor.value
     );
 
+    importaDados(): void {
+      alert('oi');
+    }
+
     if (!this.ehDiaUtil(negociacao.data)) {
       this.mensagemView.update("Apenas negociações em dias úteis são aceitas");
       return;
