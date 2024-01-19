@@ -1,4 +1,5 @@
 export class Negociacao {
+    paraTexto: any;
     constructor(
         private _data: Date, 
         public readonly quantidade: number, 
